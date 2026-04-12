@@ -1,5 +1,5 @@
 ---
-title: Privacy Policy — Mono Firstparty
+title: Privacy Policy — sskplay
 layout: default
 ---
 
@@ -8,7 +8,7 @@ layout: default
 **Effective date:** 2026-04-12
 **Last updated:** 2026-04-12
 
-This Privacy Policy applies to all games published by **Mono Firstparty**
+This Privacy Policy applies to all games published by **sskplay**
 ("we", "our") unless a specific game provides its own separate policy.
 "The Game" below means whichever of our titles you are playing.
 

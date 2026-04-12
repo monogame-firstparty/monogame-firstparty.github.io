@@ -1,9 +1,9 @@
 ---
-title: Mono Firstparty
+title: sskplay
 layout: default
 ---
 
-# Mono Firstparty
+# sskplay
 
 Small retro games built on the [Mono fantasy console](https://github.com/ssk-play/mono).
 
