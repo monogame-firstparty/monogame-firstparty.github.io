@@ -10,7 +10,7 @@ words Dr Seuss famously used to write a book on a bet. Clear all fifty and
 unlock an ending scene that celebrates how strict constraints can fuel
 creativity.
 
-- [Privacy Policy](./privacy/)
+- [Privacy Policy](/mono/privacy/)
 
 ## Support
 
