@@ -6,7 +6,7 @@ layout: default
 # Privacy Policy — Mono & Watch
 
 **Effective date:** 2026-09-26
-**Last updated:** 2026-09-26
+**Last updated:** 2026-09-27
 
 This Privacy Policy applies to **Mono & Watch** ("the App"), published by
 **sskplay** ("we", "our") on the Apple App Store and Google Play. It replaces
@@ -19,9 +19,10 @@ Mono & Watch is an offline, single-player collection of games. It does not
 require an account and does not send your game data to our servers. We do not
 run any server that receives data from the App.
 
-The App shows advertisements provided by **Google AdMob** and offers an
+The App shows advertisements provided by **Google AdMob**, offers an
 optional one-time in-app purchase ("Premium forever") processed by Apple or
-Google.
+Google, and uses **Google Firebase Analytics** and **Firebase Crashlytics** to
+understand how the games are used and to fix crashes.
 
 ## Information stored on your device
 
@@ -35,8 +36,25 @@ You can erase it at any time by deleting the App (iOS) or clearing its data or
 uninstalling it (Android).
 
 We do not collect your name, email address, phone number, postal address,
-contacts, photos, files, precise location, camera or microphone input, and we
-do not use analytics or crash-reporting services of our own.
+contacts, photos, files, precise location, camera or microphone input.
+
+## Usage analytics and crash reports — Google Firebase
+
+The App uses two Firebase services (Google LLC). Neither is used for
+advertising or to track you across other companies' apps and websites.
+
+- **Firebase Analytics** receives usage events: which game you open and for
+  how long, the screen style you pick, and whether you watch a rewarded ad or
+  buy or restore Premium. It also receives an app instance ID (a random ID for
+  this installation, not your name or account), your device model, OS version,
+  language, country or region, and the App version. Analytics' advertising
+  features are turned off: it does not use your advertising identifier.
+- **Firebase Crashlytics** receives a report when the App crashes or hits an
+  error: technical details of the error, device model, OS version, App
+  version, which game was running, and a random ID for this installation.
+
+Deleting the App resets both IDs. Analytics data is kept for up to 14 months
+and crash reports for up to 90 days.
 
 ## Advertising — Google AdMob
 
@@ -88,9 +106,14 @@ general-audience content.
 
 - **On-device data** is kept until you delete the App or clear its data.
 - **AdMob data** is kept by Google according to its own retention policies.
+- **Firebase data:** Analytics events up to 14 months, Crashlytics reports up
+  to 90 days. It is not linked to your identity, so we cannot single out your
+  records; deleting the App resets the IDs, so later data can't be connected to
+  earlier data.
 - We do not operate any server-side database of user records, so there is no
   personal record on our side to provide, correct or delete. For data handled
   by Google, use the Google policies linked above.
+- [How Firebase handles data](https://firebase.google.com/support/privacy)
 
 ## Changes to this policy
 
