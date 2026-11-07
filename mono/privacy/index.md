@@ -5,8 +5,8 @@ layout: default
 
 # Privacy Policy
 
-**Effective date:** 2026-04-12
-**Last updated:** 2026-04-12
+**Effective date:** 2026-11-07
+**Last updated:** 2026-11-07
 
 This Privacy Policy applies to all games published by **sskplay**
 ("we", "our") unless a specific game provides its own separate policy.
@@ -14,19 +14,17 @@ This Privacy Policy applies to all games published by **sskplay**
 
 ## Overview
 
-Our games are offline single-player titles built on the Mono fantasy console.
-They do not require you to create an account, do not send your game data to our
-servers, and do not contain in-app purchases.
+Our games are built on the Mono fantasy console. They do not require you to
+create an account, and your game progress stays on your device.
 
-Our games do, however, display advertisements provided by Google AdMob. Google
-AdMob may collect and use certain information to serve ads. This Privacy Policy
-covers both our own handling and AdMob's role as a third-party service.
+Our games do send some data off your device: to show ads (Google AdMob), to
+measure usage and diagnose crashes (Google Firebase), to process an optional
+ad-free purchase (Google Play), and when you choose to send us feedback. This
+policy describes each of these.
 
-## Information we collect ourselves
+## Data stored only on your device
 
-We do not collect or transmit any personally identifiable information to our
-servers. The following data is stored **only on your device** and is never sent
-to us:
+The following is stored **only on your device** and is never sent to us:
 
 - Your in-game progress (levels, scores, unlocks, settings)
 - Any game-specific state the game needs to remember between sessions
@@ -34,24 +32,18 @@ to us:
 You can erase this data at any time by clearing the game's data in Android
 Settings or by uninstalling it.
 
-Our games do not collect:
-
-- Your name, email address, phone number, or postal address
-- Your precise or approximate location
-- Your contacts, photos, files, camera input, or microphone input
-- Crash reports, analytics, or usage telemetry
-- Any unique identifier beyond what Google AdMob uses internally for ad delivery
-
 ## Advertising — Google AdMob
 
 Our games use **Google AdMob** (provided by Google LLC) to display
-advertisements. To deliver ads, AdMob may access and process:
+advertisements, unless you have purchased the ad-free upgrade. AdMob
+automatically collects and shares the following for advertising, analytics, and
+fraud prevention:
 
-- The Android **Advertising ID**, a user-resettable identifier used for ad
-  personalization and frequency capping
-- Coarse device information (device model, OS version, language, country)
-- Approximate location derived from your IP address
-- Basic interaction data with the ads themselves
+- Device and account identifiers, including the Android **Advertising ID** and
+  app set ID
+- Your IP address, which may be used to estimate your general location
+- Product interactions, such as app launches, taps, and video views
+- Diagnostic information, such as app launch time and hang rate
 
 Google AdMob's handling of this data is governed by Google's own policies:
 
@@ -63,16 +55,61 @@ You can reset or delete your Advertising ID at any time in
 **Android Settings > Privacy > Ads**. From Android 12 onwards you can also opt
 out of ad personalization from the same screen.
 
+## Analytics and crash reports — Google Firebase
+
+We use **Google Analytics for Firebase** to understand how our games are used,
+and **Firebase Crashlytics** to diagnose problems. These services collect:
+
+- Identifiers: the app-instance ID, Firebase installation ID, Crashlytics
+  installation UUID, and Advertising ID
+- Approximate location derived from a masked IP address
+- App activity: screen views, sessions, and game events such as the game opening
+  and finishing loading
+- Purchase events, including the product and its price
+- Crash and error reports: stack traces, app state at the time of the problem,
+  and device details such as model and OS version
+
+We use this data for analytics and to fix bugs, and do not use it to identify
+you. See the [Google Privacy Policy](https://policies.google.com/privacy) and
+[Firebase privacy information](https://firebase.google.com/support/privacy).
+
+## In-app purchases — Google Play
+
+Our games may offer an optional purchase that removes ads. Payment is handled
+entirely by Google Play. We do not receive your payment card details.
+
+## Feedback you send us
+
+The in-game Feedback option is optional. If you use it, we receive:
+
+- Your message and rating
+- Your email address, only if you choose to provide one, so we can reply
+- The game, its version, your language, your OS version and, on mobile, your
+  device model
+
+Your IP address is kept for up to two days to limit abuse. Feedback is handled using
+service providers: Cloudflare (hosting), GitHub (storage), Resend (email
+replies), and AI services (translation and classification).
+
+## Online play
+
+Some games, such as Battleship, offer optional online matches. Matchmaking uses
+Firebase, and game moves are then exchanged directly between the two players'
+devices, which can expose your IP address to the other player's device.
+
 ## Permissions
 
-Our games declare the following Android permission:
+Our games declare Android permissions including the following, none of which
+prompt you at runtime:
 
-- `com.google.android.gms.permission.AD_ID` — required by Google Play services
-  to access the Advertising ID for AdMob.
+- `android.permission.INTERNET` — for the ads, analytics, purchases, feedback,
+  and online features described above.
+- `com.google.android.gms.permission.AD_ID` — to access the Advertising ID.
+- `com.android.vending.BILLING` — for Google Play purchases.
 
-Our games do not request internet, location, storage, camera, microphone,
-contacts, or other runtime permissions unless a specific feature requires it.
-If that happens, the store listing and in-app prompts will explain why.
+Our games do not request location, storage, camera, microphone, or contacts
+permissions unless a specific feature requires it. If that happens, the store
+listing and in-app prompts will explain why.
 
 ## Children's privacy
 
@@ -86,20 +123,20 @@ please contact us below.
 
 - **On-device game state** is retained until you clear the game's data or
   uninstall it.
-- **AdMob data** is retained by Google according to its own retention policies.
-- We do not operate any server-side database of user records.
+- **AdMob and Firebase data** is retained by Google according to its retention
+  policies and our Firebase settings.
+- **Feedback** is kept for as long as we need it to respond and improve our
+  games.
 
 ## Your rights
 
-Because we do not collect personal data ourselves, there is no personal record
-on our side to provide, correct, or delete. For data handled by Google AdMob,
-you can exercise your rights directly through Google using the policies linked
-above.
+To ask for a copy of your feedback, or to have it corrected or deleted, email us
+at the address below. For data handled by Google, you can exercise your rights
+directly through Google using the policies linked above.
 
 ## Per-game policies
 
-If a specific game has handling that differs from this general policy (for
-example, because it goes online or integrates additional services), that game
+If a specific game has handling that differs from this general policy, that game
 will publish its own Privacy Policy. In the absence of a game-specific policy,
 this one applies.
 
